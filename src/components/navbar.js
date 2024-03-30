@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { Bio } from "../data/constants";
+import logo from '../assets/signature.png';
 
 const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
@@ -203,16 +205,16 @@ const Navbar = () => {
     return (
         <Nav>
             <NavContainer>
-                <NavLogo>logo</NavLogo>
+                <NavLogo><img src={logo} alt="" style={{width: '200px'}}/></NavLogo>
                 <MobileIcon></MobileIcon>
                 <NavItems>
-                    <NavLink href="">About</NavLink>
-                    <NavLink href="">Skills</NavLink>
-                    <NavLink href="">Projects</NavLink>
-                    <NavLink href="">Education</NavLink>
+                    <NavLink href="#about">About</NavLink>
+                    <NavLink href="#skills">Skills</NavLink>
+                    <NavLink href="#projects">Projects</NavLink>
+                    {/* <NavLink href="">Education</NavLink> */}
                 </NavItems>
                 <ButtonContainer>
-                    <GitHubButton>Github Profile</GitHubButton>
+                    <GitHubButton onClick={() => window.location.href = Bio.github}>Github Profile</GitHubButton>
                 </ButtonContainer>
             </NavContainer>
         </Nav>

@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Bio } from "../data/constants";
 import Typewriter from "typewriter-effect";
 import profileImg from '../assets/profile_pic.jpg';
+import profileImg1 from '../assets/profile_pic_c.jpg';
 import HeroAnimation from "./HeroAnimation";
 
 const HeroContainer = styled.div`
@@ -188,8 +189,8 @@ const Image = styled.img`
     position: relative;
     width: 100%;
     height: 100%;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 375px;
+    max-height: 375px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
@@ -214,7 +215,7 @@ const HeroSection = () => {
                 <HeroInnerContainer>
                     <LeftContainer>
                         <Title>Hi! I'm <br /> {Bio.name}</Title>
-                        <TextLoop> I'm a 
+                        <TextLoop>
                             <Span>
                                 <Typewriter
                                     options={{
@@ -229,7 +230,7 @@ const HeroSection = () => {
                         <ResumeButton href={Bio.resume} target="_blank">Check Resume</ResumeButton>
                     </LeftContainer>
                     <RightContainer>
-                        <Image src={profileImg} alt='profile pic' />
+                        <Image src={profileImg1} alt='profile pic' />
                     </RightContainer>
                 </HeroInnerContainer>
             </HeroContainer>
