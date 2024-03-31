@@ -58,7 +58,7 @@ const Projects = () => {
         <Container id='projects'>
             <Wrapper>
                 <Title>Projects</Title>
-                <Description>Projects i've created so far</Description>
+                {/* <Description>Projects i've created so far</Description> */}
                 <CardContainer>
                     {projects.map((project) => (
                         <ProjectCard project={project} />

@@ -89,7 +89,7 @@ const ProjectCard = ( {project} ) => {
             <Details>
                 <Title>{project.title}</Title>
                 <Description>{project.description}</Description>
-                <a href={project.github}>github</a>
+                <a href={project.github} target="_blank">view on Github</a>
             </Details>
         </Card>
         // </a>

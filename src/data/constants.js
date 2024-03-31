@@ -1,4 +1,12 @@
 import personaprep from '../assets/personaprep.png';
+import greensupermarket from '../assets/greensupermarket.png';
+import studentaccom from '../assets/student_accommodation.png';
+import hotelmanagement from '../assets/hotelmanagement.png';
+import react from '../assets/react.png';
+import java from '../assets/java.png';
+import php from '../assets/php.png';
+import mui from '../assets/mui.png';
+import html from '../assets/html.png';
 
 export const Bio = {
     name: "Ishuwara Avarjana",
@@ -20,39 +28,38 @@ export const skills = [
     {
         title: "Frontend",
         skills: [
-        {
-            name: "React Js",
-            image:
-            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-        },
-        {
+          {
             name: "HTML",
-            image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-        },
-        {
+            image: html,
+          },
+          {
             name: "CSS",
             image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-        },
-        {
-            name: "JavaScript",
-            image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-        },
-        {
-            name: "Bootstrap",
-            image:
-            "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-        },
-        {
-            name: "Material UI",
-            image: "",
-        },
-        {
-            name: "Flutter",
-            image:
-            "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-        },
+          },
+          {
+              name: "JavaScript",
+              image:
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          },
+          {
+              name: "React Js",
+              image:  react,
+          },
+          {
+              name: "Material UI",
+              image: mui,
+          },
+          {
+              name: "Bootstrap",
+              image:
+              "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+          },
+          {
+              name: "Flutter",
+              image:
+              "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+          },
         ],
     },
     {
@@ -69,10 +76,14 @@ export const skills = [
         },
         {
             name: "Java",
-            image: "",
+            image: java,
         },
         {
             name: "PHP",
+            image: php,
+        },
+        {
+            name: "c#",
             image: "",
         },
         ],
@@ -97,21 +108,19 @@ export const projects = [
       title: "PersonaPrep",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, sint!",
-      image:
-        "iamge",
+      image: personaprep,
       tags: [
         "React",
         "Firebase",
       ],
-      github: "https://github.com/ishuwaraa",
+      github: "https://github.com/DarrenVictoria/PersonaPrep",
     },   
     {
       id: 1,
       title: "Green Supermarket",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, sint!",
-      image:
-        "",
+      image: greensupermarket,
       tags: [
         "Java",
         "MySql",
@@ -119,7 +128,7 @@ export const projects = [
         "Paypal",
         "MVC",
       ],
-      github: "https://github.com/ishuwaraa",
+      github: "https://github.com/Ishuwaraa/GREEN-Supermarket",
     },   
     {
       id: 2,
@@ -131,35 +140,35 @@ export const projects = [
       tags: [
         "Flutter",
         "Firebase",
+        "Android",
+        "ios",
       ],
-      github: "https://github.com/ishuwaraa",
+      github: "https://github.com/Ishuwaraa/cookit",
     },   
     {
       id: 3,
       title: "Student Accommodation",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, sint!",
-      image:
-        "iamge",
+      image: studentaccom,
       tags: [
         "PHP",
         "MySql",
         "MVC",
         "Google Maps API",
       ],
-      github: "https://github.com/ishuwaraa",
+      github: "https://github.com/Ishuwaraa/Student-accommodation-system",
     },   
     {
       id: 4,
       title: "Hotel Management System",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, sint!",
-      image:
-        "iamge",
+      image: hotelmanagement,
       tags: [
         "C#",
         "WinForms",
       ],
-      github: "https://github.com/ishuwaraa",
+      github: "https://github.com/Ishuwaraa/Hotel-Management-System",
     },   
 ];
