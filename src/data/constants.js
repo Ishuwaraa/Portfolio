@@ -7,6 +7,7 @@ import java from '../assets/java.png';
 import php from '../assets/php.png';
 import mui from '../assets/mui.png';
 import html from '../assets/html.png';
+import csharp from '../assets/c-sharp.png';
 
 export const Bio = {
     name: "Ishuwara Avarjana",
@@ -17,9 +18,9 @@ export const Bio = {
         "Programmer",
     ],
     description:
-        "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+        "I am a motivated and a versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ishuwaraa",
-    resume: "",
+    resume: "https://drive.google.com/file/d/1VhPRizW5VFBp4wbYjzpTY3oAAgIZ3WkI/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/ishuwara-avarjana-a83872253/",
     instagram: "https://www.instagram.com/ishuwara._",
 };
@@ -84,7 +85,7 @@ export const skills = [
         },
         {
             name: "c#",
-            image: "",
+            image: csharp,
         },
         ],
     },
@@ -107,7 +108,7 @@ export const projects = [
       id: 0,
       title: "PersonaPrep",
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, sint!",
+        "A CV generator for NSBM Students with an AI interview simulator created using ChatGpt, Eleven Labs, and Whisper AI",
       image: personaprep,
       tags: [
         "React",
@@ -119,7 +120,7 @@ export const projects = [
       id: 1,
       title: "Green Supermarket",
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, sint!",
+        "An E-commerce website integrated with Paypal sandbox and Java mail API.",
       image: greensupermarket,
       tags: [
         "Java",
@@ -134,7 +135,7 @@ export const projects = [
       id: 2,
       title: "CookIt",
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, sint!",
+        "A recipe app where users can share recipes with others and with the options to add comments and dave their favourites recipes.",
       image:
         "iamge",
       tags: [
@@ -149,7 +150,7 @@ export const projects = [
       id: 3,
       title: "Student Accommodation",
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, sint!",
+        "A web-based application for landlords to post their Ads and students to reserve a property through the website",
       image: studentaccom,
       tags: [
         "PHP",
@@ -163,7 +164,7 @@ export const projects = [
       id: 4,
       title: "Hotel Management System",
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, sint!",
+        "A windows form applications to register customers, add bookings, and update room availabilities.",
       image: hotelmanagement,
       tags: [
         "C#",

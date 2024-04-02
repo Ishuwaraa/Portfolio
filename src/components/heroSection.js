@@ -227,7 +227,7 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target="_blank">Check Resume</ResumeButton>
+                        <ResumeButton href={Bio.resume} target="_blank">View CV</ResumeButton>
                     </LeftContainer>
                     <RightContainer>
                         <Image src={profileImg1} alt='profile pic' />

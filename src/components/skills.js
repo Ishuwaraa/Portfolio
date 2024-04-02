@@ -8,7 +8,6 @@ const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
-    height: 650px;
 `;
 
 const Wrapper = styled.div`
@@ -20,6 +19,8 @@ const Wrapper = styled.div`
     align-items: center;
     width: 100%;
     gap: 12px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 `;
 
 const Title = styled.div`

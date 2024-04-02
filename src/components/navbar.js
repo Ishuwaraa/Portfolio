@@ -37,6 +37,7 @@ const NavLogo = styled.div`
     text-decoration: none;
     @media (max-width: 640px) {
       padding: 0 0px;
+      display: none;
   }
 `;
 
@@ -90,6 +91,25 @@ const GitHubButton = styled.button`
     }
     @media screen and (max-width: 768px) { 
         font-size: 14px;
+    }
+`;
+
+const GithubMobileButton = styled.button`
+    display: none;
+    @media screen and (max-width: 768px) { 
+        background-color: transparent;
+        border: 1.8px solid ${({ theme }) => theme.primary};
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        height: 70%;
+        border-radius: 20px;
+        color: ${({ theme }) => theme.primary};
+        cursor: pointer;
+        padding: 0 20px;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 16px;
     }
 `;
 
@@ -206,6 +226,7 @@ const Navbar = () => {
         <Nav>
             <NavContainer>
                 <NavLogo><img src={logo} alt="" style={{width: '200px'}}/></NavLogo>
+                <GithubMobileButton onClick={() => window.location.href = Bio.github}>Github Profile</GithubMobileButton>
                 <MobileIcon></MobileIcon>
                 <NavItems>
                     <NavLink href="#about">About</NavLink>
