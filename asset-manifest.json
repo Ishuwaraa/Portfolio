@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ishuwaraa/Portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/Ishuwaraa/Portfolio/static/js/main.6fa5c589.js",
+    "main.js": "/Ishuwaraa/Portfolio/static/js/main.0edf381d.js",
     "static/media/greensupermarket.png": "/Ishuwaraa/Portfolio/static/media/greensupermarket.1492e59b621124fbcf91.png",
     "static/media/student_accommodation.png": "/Ishuwaraa/Portfolio/static/media/student_accommodation.bd035423dc17cf9aad5b.png",
     "static/media/hotelmanagement.png": "/Ishuwaraa/Portfolio/static/media/hotelmanagement.d9e370b6f5bac0d4e58f.png",
@@ -16,10 +16,10 @@
     "static/media/react.png": "/Ishuwaraa/Portfolio/static/media/react.ae04681c76378441b186.png",
     "index.html": "/Ishuwaraa/Portfolio/index.html",
     "main.bf538fe7.css.map": "/Ishuwaraa/Portfolio/static/css/main.bf538fe7.css.map",
-    "main.6fa5c589.js.map": "/Ishuwaraa/Portfolio/static/js/main.6fa5c589.js.map"
+    "main.0edf381d.js.map": "/Ishuwaraa/Portfolio/static/js/main.0edf381d.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.6fa5c589.js"
+    "static/js/main.0edf381d.js"
   ]
 }
