@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/Portfolio/static/js/main.a779c5e3.js",
+    "main.js": "/Portfolio/static/js/main.f78753cd.js",
     "static/media/greensupermarket.png": "/Portfolio/static/media/greensupermarket.1492e59b621124fbcf91.png",
     "static/media/student_accommodation.png": "/Portfolio/static/media/student_accommodation.bd035423dc17cf9aad5b.png",
     "static/media/hotelmanagement.png": "/Portfolio/static/media/hotelmanagement.d9e370b6f5bac0d4e58f.png",
@@ -11,15 +11,14 @@
     "static/media/profile_pic_c.jpg": "/Portfolio/static/media/profile_pic_c.14b31bb4475e8fe83ddf.jpg",
     "static/media/profile_pic.jpg": "/Portfolio/static/media/profile_pic.bb9c15292af5fb3d008c.jpg",
     "static/media/html.png": "/Portfolio/static/media/html.3db2790cbe3530d14ad2.png",
-    "static/media/c\u0000#.png": "/Portfolio/static/media/c#.98fcc5657e213e8b9394.png",
     "static/media/signature.png": "/Portfolio/static/media/signature.3654d7f5fe3da5966d3f.png",
     "static/media/react.png": "/Portfolio/static/media/react.ae04681c76378441b186.png",
     "index.html": "/Portfolio/index.html",
     "main.bf538fe7.css.map": "/Portfolio/static/css/main.bf538fe7.css.map",
-    "main.a779c5e3.js.map": "/Portfolio/static/js/main.a779c5e3.js.map"
+    "main.f78753cd.js.map": "/Portfolio/static/js/main.f78753cd.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.a779c5e3.js"
+    "static/js/main.f78753cd.js"
   ]
 }
