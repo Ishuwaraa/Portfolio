@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Ishuwaraa/Portfolio/static/css/main.bf538fe7.css",
+    "main.js": "/Ishuwaraa/Portfolio/static/js/main.6fa5c589.js",
+    "static/media/greensupermarket.png": "/Ishuwaraa/Portfolio/static/media/greensupermarket.1492e59b621124fbcf91.png",
+    "static/media/student_accommodation.png": "/Ishuwaraa/Portfolio/static/media/student_accommodation.bd035423dc17cf9aad5b.png",
+    "static/media/hotelmanagement.png": "/Ishuwaraa/Portfolio/static/media/hotelmanagement.d9e370b6f5bac0d4e58f.png",
+    "static/media/personaprep.png": "/Ishuwaraa/Portfolio/static/media/personaprep.714ce513c86c9c6c1beb.png",
+    "static/media/php.png": "/Ishuwaraa/Portfolio/static/media/php.60008588b08878c3db25.png",
+    "static/media/java.png": "/Ishuwaraa/Portfolio/static/media/java.07101c69312e7f028de4.png",
+    "static/media/profile_pic_c.jpg": "/Ishuwaraa/Portfolio/static/media/profile_pic_c.14b31bb4475e8fe83ddf.jpg",
+    "static/media/profile_pic.jpg": "/Ishuwaraa/Portfolio/static/media/profile_pic.bb9c15292af5fb3d008c.jpg",
+    "static/media/html.png": "/Ishuwaraa/Portfolio/static/media/html.3db2790cbe3530d14ad2.png",
+    "static/media/c\u0000#.png": "/Ishuwaraa/Portfolio/static/media/c#.98fcc5657e213e8b9394.png",
+    "static/media/signature.png": "/Ishuwaraa/Portfolio/static/media/signature.3654d7f5fe3da5966d3f.png",
+    "static/media/react.png": "/Ishuwaraa/Portfolio/static/media/react.ae04681c76378441b186.png",
+    "index.html": "/Ishuwaraa/Portfolio/index.html",
+    "main.bf538fe7.css.map": "/Ishuwaraa/Portfolio/static/css/main.bf538fe7.css.map",
+    "main.6fa5c589.js.map": "/Ishuwaraa/Portfolio/static/js/main.6fa5c589.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.6fa5c589.js"
+  ]
+}
