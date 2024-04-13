@@ -2,6 +2,7 @@ import personaprep from '../assets/personaprep.png';
 import greensupermarket from '../assets/greensupermarket.png';
 import studentaccom from '../assets/student_accommodation.png';
 import hotelmanagement from '../assets/hotelmanagement.png';
+import cookit from '../assets/cookit.png';
 import react from '../assets/react.png';
 import java from '../assets/java.png';
 import php from '../assets/php.png';
@@ -136,8 +137,7 @@ export const projects = [
       title: "CookIt",
       description:
         "A recipe app where users can share recipes with others and with the options to add comments and dave their favourites recipes.",
-      image:
-        "iamge",
+      image: cookit,
       tags: [
         "Flutter",
         "Firebase",
