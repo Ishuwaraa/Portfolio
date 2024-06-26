@@ -9,6 +9,7 @@ import php from '../assets/php.png';
 import mui from '../assets/mui.png';
 import html from '../assets/html.png';
 import csharp from '../assets/c-sharp.png';
+import cbodima from '../assets/campusBodima.png';
 
 export const Bio = {
     name: "Ishuwara Avarjana",
@@ -107,6 +108,19 @@ export const education = [
 export const projects = [
     {
       id: 0,
+      title: "Campus Bodima",
+      description:
+        "A platform for students to find their university accommodation and share their opinions about the places they've stayed.",
+      image: cbodima,
+      tags: [
+        "MERN",
+        "AWS S3",
+        "JWT",
+      ],
+      github: "https://github.com/Ishuwaraa/campus-bodima",
+    },   
+    {
+      id: 1,
       title: "PersonaPrep",
       description:
         "A CV generator for NSBM Students with an AI interview simulator created using ChatGpt, Eleven Labs, and Whisper AI",
@@ -118,7 +132,7 @@ export const projects = [
       github: "https://github.com/DarrenVictoria/PersonaPrep",
     },   
     {
-      id: 1,
+      id: 2,
       title: "Green Supermarket",
       description:
         "An E-commerce website integrated with Paypal sandbox and Java mail API.",
@@ -133,7 +147,7 @@ export const projects = [
       github: "https://github.com/Ishuwaraa/GREEN-Supermarket",
     },   
     {
-      id: 2,
+      id: 3,
       title: "CookIt",
       description:
         "A recipe app where users can share recipes with others and with the options to add comments and dave their favourites recipes.",
@@ -147,7 +161,7 @@ export const projects = [
       github: "https://github.com/Ishuwaraa/cookit",
     },   
     {
-      id: 3,
+      id: 4,
       title: "Student Accommodation",
       description:
         "A web-based application for landlords to post their Ads and students to reserve a property through the website",
@@ -161,7 +175,7 @@ export const projects = [
       github: "https://github.com/Ishuwaraa/Student-accommodation-system",
     },   
     {
-      id: 4,
+      id: 5,
       title: "Hotel Management System",
       description:
         "A windows form applications to register customers, add bookings, and update room availabilities.",
