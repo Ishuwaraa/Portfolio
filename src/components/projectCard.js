@@ -89,7 +89,7 @@ const ProjectCard = ( {project} ) => {
             <Details>
                 <Title>{project.title}</Title>
                 <Description>{project.description}</Description>
-                <a href={project.github} target="_blank" style={{color: '#854CE6'}}>view on Github</a>
+                <a href={project.github} target="_blank" rel="noreferrer" style={{color: '#854CE6'}}>view on Github</a>
             </Details>
         </Card>
         // </a>
