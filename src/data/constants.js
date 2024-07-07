@@ -116,6 +116,7 @@ export const projects = [
         "MERN",
         "AWS S3",
         "JWT",
+        "Google Maps API"
       ],
       github: "https://github.com/Ishuwaraa/campus-bodima",
     },   
