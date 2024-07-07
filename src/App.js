@@ -5,7 +5,7 @@ import Navbar from './components/navbar';
 import HeroSection from './components/heroSection';
 import Skills from './components/skills';
 import Projects from './components/projects';
-import {BrowserRouter,Routes,Route, useNavigate, Navigate } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import Footer from './components/footer';
 
 const Body = styled.div`

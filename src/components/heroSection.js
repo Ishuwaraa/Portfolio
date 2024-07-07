@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Bio } from "../data/constants";
 import Typewriter from "typewriter-effect";
-import profileImg from '../assets/profile_pic.jpg';
 import profileImg1 from '../assets/profile_pic_c.jpg';
 import HeroAnimation from "./HeroAnimation";
 

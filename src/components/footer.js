@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../data/constants';
@@ -22,12 +21,6 @@ const FooterWrapper = styled.footer`
   align-items: center;
   padding: 1rem;
   color: ${({ theme }) => theme.text_primary};
-`;
-
-const Logo = styled.h1`
-  font-weight: 600;
-  font-size: 20px;
-  color: ${({ theme }) => theme.primary};
 `;
 
 const SocialMediaIcons = styled.div`

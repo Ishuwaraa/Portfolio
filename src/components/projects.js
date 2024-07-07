@@ -35,16 +35,6 @@ const Title = styled.div`
     }
 `;
 
-const Description = styled.div`
-    font-size: 18px;
-    text-align: center;
-    max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
-    @media (max-width: 768px) {
-        font-size: 16px;
-    }
-`;
-
 const CardContainer = styled.div`
     display: flex;
     justify-content: center;
