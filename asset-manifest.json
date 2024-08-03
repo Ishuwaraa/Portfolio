@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/Portfolio/static/js/main.f190569a.js",
+    "main.js": "/Portfolio/static/js/main.12820fd8.js",
     "static/media/cookit.png": "/Portfolio/static/media/cookit.8f4f1b7f278034cb3f57.png",
     "static/media/greensupermarket.png": "/Portfolio/static/media/greensupermarket.1492e59b621124fbcf91.png",
     "static/media/student_accommodation.png": "/Portfolio/static/media/student_accommodation.bd035423dc17cf9aad5b.png",
@@ -10,16 +10,19 @@
     "static/media/personaprep.png": "/Portfolio/static/media/personaprep.714ce513c86c9c6c1beb.png",
     "static/media/php.png": "/Portfolio/static/media/php.60008588b08878c3db25.png",
     "static/media/java.png": "/Portfolio/static/media/java.07101c69312e7f028de4.png",
+    "static/media/blogsphere.png": "/Portfolio/static/media/blogsphere.aed84bbb664e19e5b8d6.png",
     "static/media/profile_pic_c.jpg": "/Portfolio/static/media/profile_pic_c.14b31bb4475e8fe83ddf.jpg",
+    "static/media/pwnedchecker.png": "/Portfolio/static/media/pwnedchecker.396a07b2e457adddcc20.png",
     "static/media/html.png": "/Portfolio/static/media/html.3db2790cbe3530d14ad2.png",
+    "static/media/python.png": "/Portfolio/static/media/python.f32d9c6aae3a7bae0635.png",
     "static/media/signature.png": "/Portfolio/static/media/signature.3654d7f5fe3da5966d3f.png",
     "static/media/react.png": "/Portfolio/static/media/react.ae04681c76378441b186.png",
     "index.html": "/Portfolio/index.html",
     "main.bf538fe7.css.map": "/Portfolio/static/css/main.bf538fe7.css.map",
-    "main.f190569a.js.map": "/Portfolio/static/js/main.f190569a.js.map"
+    "main.12820fd8.js.map": "/Portfolio/static/js/main.12820fd8.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.f190569a.js"
+    "static/js/main.12820fd8.js"
   ]
 }
