@@ -6,10 +6,13 @@ import cookit from '../assets/cookit.png';
 import react from '../assets/react.png';
 import java from '../assets/java.png';
 import php from '../assets/php.png';
-import mui from '../assets/mui.png';
 import html from '../assets/html.png';
 import csharp from '../assets/c-sharp.png';
 import cbodima from '../assets/campusBodima.png';
+import pwnedChcker from '../assets/pwnedchecker.png';
+import python from '../assets/python.png';
+import nextjs from '../assets/nextjs.png';
+import blogsphere from '../assets/blogsphere.png';
 
 export const Bio = {
     name: "Ishuwara Avarjana",
@@ -20,7 +23,7 @@ export const Bio = {
         "Programmer",
     ],
     description:
-        "I am a motivated and a versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+        "An aspiring Software Engineering student with a passion for coding and problem-solving.",
     github: "https://github.com/ishuwaraa",
     resume: "https://drive.google.com/drive/folders/1zI9NupEeQk1WfFT3NgimHEoahIaJVDH7?usp=sharing",
     linkedin: "https://www.linkedin.com/in/ishuwara-avarjana-a83872253/",
@@ -50,13 +53,8 @@ export const skills = [
               image:  react,
           },
           {
-              name: "Material UI",
-              image: mui,
-          },
-          {
-              name: "Bootstrap",
-              image:
-              "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+              name: "NextJs",
+              image: nextjs,
           },
           {
               name: "Flutter",
@@ -84,6 +82,10 @@ export const skills = [
         {
             name: "PHP",
             image: php,
+        },
+        {
+            name: "Python",
+            image: python,
         },
         {
             name: "c#",
@@ -124,7 +126,7 @@ export const projects = [
       id: 1,
       title: "PersonaPrep",
       description:
-        "A CV generator for NSBM Students with an AI interview simulator created using ChatGpt, Eleven Labs, and Whisper AI",
+        "A CV generator for NSBM Students with an AI interview simulator and a Corporate Analytical Dashboard",
       image: personaprep,
       tags: [
         "React",
@@ -143,7 +145,6 @@ export const projects = [
         "MySql",
         "JavaMail",
         "Paypal",
-        "MVC",
       ],
       github: "https://github.com/Ishuwaraa/GREEN-Supermarket",
     },   
@@ -170,13 +171,37 @@ export const projects = [
       tags: [
         "PHP",
         "MySql",
-        "MVC",
         "Google Maps API",
       ],
       github: "https://github.com/Ishuwaraa/Student-accommodation-system",
     },   
     {
       id: 5,
+      title: "Pwned Checker TgBot",
+      description:
+        "A Telegram Bot to check whether your password has been compromised in data breaches.",
+      image: pwnedChcker,
+      tags: [
+        "Python",
+        "HaveIBeenPwned API",
+      ],
+      github: "https://github.com/Ishuwaraa/pwned-checker-telegrambot",
+    },   
+    {
+      id: 6,
+      title: "BlogSphere",
+      description:
+        "A blogging platform created using NextJs to enable users to manage and interact with blogs.",
+      image: blogsphere,
+      tags: [
+        "NextJs",
+        "MongoDb",
+        "OAuth",
+      ],
+      github: "https://github.com/Ishuwaraa/blogsphere-nextjs",
+    },   
+    {
+      id: 7,
       title: "Hotel Management System",
       description:
         "A windows form applications to register customers, add bookings, and update room availabilities.",

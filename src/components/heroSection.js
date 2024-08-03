@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { Bio } from "../data/constants";
-import Typewriter from "typewriter-effect";
 import profileImg1 from '../assets/profile_pic_c.jpg';
 import HeroAnimation from "./HeroAnimation";
 
@@ -111,28 +110,6 @@ const Title = styled.div`
     }
 `;
 
-const TextLoop = styled.div`
-    font-weight: 600;
-    font-size: 32px;
-    display: flex;
-    gap: 12px;
-    color: ${({ theme }) => theme.text_primary};
-    line-height: 68px;
-    @media (max-width: 960px) {
-        text-align: center;
-    }
-    @media (max-width: 640px) {
-        font-size: 22px;
-        line-height: 48px;
-        margin-bottom: 16px;
-    }
-`;
-
-const Span = styled.span`
-    color: ${({ theme }) => theme.primary};
-    cursor: pointer;
-`;
-
 const SubTitle = styled.div`
     font-size: 20px;
     line-height: 32px;
@@ -213,18 +190,7 @@ const HeroSection = () => {
                 <HeroBg> <HeroAnimation /> </HeroBg>
                 <HeroInnerContainer>
                     <LeftContainer>
-                        <Title>Hi! I'm <br /> {Bio.name}</Title>
-                        <TextLoop>
-                            <Span>
-                                <Typewriter
-                                    options={{
-                                        strings: Bio.roles,
-                                        autoStart: true,
-                                        loop: true,
-                                    }}
-                                />
-                            </Span>
-                        </TextLoop>
+                        <Title>Hey there! I'm <br /> {Bio.name}</Title>
                         <SubTitle>{Bio.description}</SubTitle>
                         <ResumeButton href={Bio.resume} target="_blank">View CV</ResumeButton>
                     </LeftContainer>
