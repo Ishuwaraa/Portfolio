@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { Bio } from "../data/constants";
-import profileImg1 from '../assets/profile_pic_c.jpg';
 import Profile from '../assets/profile.jpg';
 import HeroAnimation from "./HeroAnimation";
 
