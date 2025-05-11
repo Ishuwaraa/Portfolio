@@ -45,6 +45,8 @@ const Copyright = styled.p`
 `;
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
     return ( 
         <FooterContainer>
             <FooterWrapper>
@@ -61,7 +63,7 @@ const Footer = () => {
                     </SocialMediaIcon>
                 </SocialMediaIcons>
                 <Copyright>
-                    &copy; 2024 Ishuwara Avarjana. All rights reserved.
+                    &copy; {currentYear} Ishuwara Avarjana. All rights reserved.
                 </Copyright>
             </FooterWrapper>
         </FooterContainer>

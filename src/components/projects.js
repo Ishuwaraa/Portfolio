@@ -50,8 +50,8 @@ const Projects = () => {
                 <Title>Projects</Title>
                 {/* <Description>Projects i've created so far</Description> */}
                 <CardContainer>
-                    {projects.map((project) => (
-                        <ProjectCard project={project} />
+                    {projects.map((project, index) => (
+                        <ProjectCard key={index} project={project} />
                     ))}                    
                 </CardContainer>
             </Wrapper>
