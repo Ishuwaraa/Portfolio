@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Bio } from "../data/constants";
-import Profile from '../assets/profile.jpg';
+import Profile from '../assets/profile_pic_c.jpg';
 import HeroAnimation from "./HeroAnimation";
 
 const HeroContainer = styled.div`

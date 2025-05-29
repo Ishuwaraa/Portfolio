@@ -4,7 +4,6 @@ import studentaccom from '../assets/student_accommodation.png';
 import hotelmanagement from '../assets/hotelmanagement.png';
 import cookit from '../assets/cookit.png';
 import react from '../assets/react.png';
-import java from '../assets/java.png';
 import php from '../assets/php.png';
 import html from '../assets/html.png';
 import csharp from '../assets/c-sharp.png';
@@ -13,6 +12,8 @@ import pwnedChcker from '../assets/pwnedchecker.png';
 import python from '../assets/python.png';
 import nextjs from '../assets/nextjs.png';
 import blogsphere from '../assets/blogsphere.png';
+import tastelanka from '../assets/tastelanka.png';
+import springBoot from '../assets/springboot.png';
 
 export const Bio = {
     name: "Ishuwara Avarjana",
@@ -76,21 +77,21 @@ export const skills = [
             image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
         },
         {
-            name: "Java",
-            image: java,
+            name: "SpringBoot",
+            image: springBoot,
+        },
+        {
+          name: "Python",
+          image: python,
+        },
+        {
+          name: "c#",
+          image: csharp,
         },
         {
             name: "PHP",
             image: php,
-        },
-        {
-            name: "Python",
-            image: python,
-        },
-        {
-            name: "c#",
-            image: csharp,
-        },
+        }
         ],
     },
 ];
@@ -110,6 +111,21 @@ export const education = [
 export const projects = [
     {
       id: 0,
+      title: "TasteLanka",
+      description:
+        "A restaurant discovery platform with AI-powered natural language search and real-time chat, built using MERN, Flask, and Sentence Transformers.",
+      image: tastelanka,
+      tags: [
+        "MERN",
+        "Python",
+        "NLP",
+        "AWS S3",
+        "Google Maps API"
+      ],
+      github: "https://github.com/Ishuwaraa/tastelanka",
+    },   
+    {
+      id: 1,
       title: "Campus Bodima",
       description:
         "A platform for students to find their university accommodation and share their opinions about the places they've stayed.",
@@ -123,7 +139,7 @@ export const projects = [
       github: "https://github.com/Ishuwaraa/campus-bodima",
     },   
     {
-      id: 1,
+      id: 2,
       title: "PersonaPrep",
       description:
         "A CV generator for NSBM Students with an AI interview simulator and a Corporate Analytical Dashboard",
@@ -135,7 +151,7 @@ export const projects = [
       github: "https://github.com/DarrenVictoria/PersonaPrep",
     },   
     {
-      id: 2,
+      id: 3,
       title: "Green Supermarket",
       description:
         "An E-commerce website integrated with Paypal sandbox and Java mail API.",
@@ -149,7 +165,7 @@ export const projects = [
       github: "https://github.com/Ishuwaraa/GREEN-Supermarket",
     },   
     {
-      id: 3,
+      id: 4,
       title: "CookIt",
       description:
         "A recipe app where users can share recipes with others and with the options to add comments and dave their favourites recipes.",
@@ -163,7 +179,7 @@ export const projects = [
       github: "https://github.com/Ishuwaraa/cookit",
     },   
     {
-      id: 4,
+      id: 5,
       title: "Student Accommodation",
       description:
         "A web-based application for landlords to post their Ads and students to reserve a property through the website",
@@ -176,7 +192,7 @@ export const projects = [
       github: "https://github.com/Ishuwaraa/Student-accommodation-system",
     },   
     {
-      id: 5,
+      id: 6,
       title: "Pwned Checker TgBot",
       description:
         "A Telegram Bot to check whether your password has been compromised in data breaches.",
@@ -188,7 +204,7 @@ export const projects = [
       github: "https://github.com/Ishuwaraa/pwned-checker-telegrambot",
     },   
     {
-      id: 6,
+      id: 7,
       title: "BlogSphere",
       description:
         "A blogging platform created using NextJs to enable users to manage and interact with blogs.",
@@ -201,7 +217,7 @@ export const projects = [
       github: "https://github.com/Ishuwaraa/blogsphere-nextjs",
     },   
     {
-      id: 7,
+      id: 8,
       title: "Hotel Management System",
       description:
         "A windows form applications to register customers, add bookings, and update room availabilities.",
