@@ -4,16 +4,21 @@ import studentaccom from '../assets/student_accommodation.png';
 import hotelmanagement from '../assets/hotelmanagement.png';
 import cookit from '../assets/cookit.png';
 import react from '../assets/react.png';
-import php from '../assets/php.png';
 import html from '../assets/html.png';
-import csharp from '../assets/c-sharp.png';
 import cbodima from '../assets/campusBodima.png';
 import pwnedChcker from '../assets/pwnedchecker.png';
 import python from '../assets/python.png';
-import nextjs from '../assets/nextjs.png';
 import blogsphere from '../assets/blogsphere.png';
 import tastelanka from '../assets/tastelanka.png';
 import springBoot from '../assets/springboot.png';
+import node from '../assets/node.png';
+import angular from '../assets/angular.jpg';
+import dotnet from '../assets/dotnet.jpg';
+import mongodb from '../assets/mongodb.png';
+import nextjs from '../assets/nextjs.jpeg';
+import js from '../assets/js.png';
+import css from '../assets/css.png';
+import mysql from '../assets/mysql.png';
 
 export const Bio = {
     name: "Ishuwara Avarjana",
@@ -24,7 +29,7 @@ export const Bio = {
         "Programmer",
     ],
     description:
-        "An aspiring Software Engineering student with a passion for coding and problem-solving.",
+        "An aspiring Software Engineering undergraduate with a passion for coding and problem-solving.",
     github: "https://github.com/ishuwaraa",
     resume: "https://drive.google.com/drive/folders/1zI9NupEeQk1WfFT3NgimHEoahIaJVDH7?usp=sharing",
     linkedin: "https://www.linkedin.com/in/ishuwara-avarjana-a83872253/",
@@ -41,57 +46,53 @@ export const skills = [
           },
           {
             name: "CSS",
-            image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+            image: css,
           },
           {
               name: "JavaScript",
-              image:
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+              image: js,
           },
           {
-              name: "React Js",
+              name: "React",
               image:  react,
+          },
+          {
+              name: "Angular",
+              image:  angular,
           },
           {
               name: "NextJs",
               image: nextjs,
           },
-          {
-              name: "Flutter",
-              image:
-              "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-          },
         ],
     },
     {
         title: "Backend",
-        skills: [
-        {
-            name: "MySQL",
-            image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-        },
-        {
-            name: "Firebase",
-            image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-        },
+        skills: [        
         {
             name: "SpringBoot",
             image: springBoot,
+        },
+        {
+          name: "NodeJs",
+          image: node,
+        },
+        {
+          name: ".NET",
+          image: dotnet,
         },
         {
           name: "Python",
           image: python,
         },
         {
-          name: "c#",
-          image: csharp,
+            name: "MySQL",
+            image: mysql,
         },
         {
-            name: "PHP",
-            image: php,
-        }
+            name: "MongoDb",
+            image: mongodb,
+        },
         ],
     },
 ];

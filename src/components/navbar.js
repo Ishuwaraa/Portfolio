@@ -144,7 +144,7 @@ const Navbar = () => {
         <Nav>
             <NavContainer>
                 <NavLogo><img src={logo} alt="" style={{width: '200px'}}/></NavLogo>
-                <GithubMobileButton onClick={() => window.location.href = Bio.github}>Github Profile</GithubMobileButton>
+                <GithubMobileButton onClick={() => window.open(Bio.github)}>Github Profile</GithubMobileButton>
                 <MobileIcon></MobileIcon>
                 <NavItems>
                     <NavLink href="#about">About</NavLink>
@@ -153,7 +153,7 @@ const Navbar = () => {
                     {/* <NavLink href="">Education</NavLink> */}
                 </NavItems>
                 <ButtonContainer>
-                    <GitHubButton onClick={() => window.location.href = Bio.github}>Github Profile</GitHubButton>
+                    <GitHubButton onClick={() => window.open(Bio.github)}>Github Profile</GitHubButton>
                 </ButtonContainer>
             </NavContainer>
         </Nav>
